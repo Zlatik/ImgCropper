@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"> </head>
+
+<body>
+    <form action="#">
+        <div class="croppie">
+           
+            <div id="cursor"></div>
+            <div id="handle"></div>
+        </div>
+        
+        <canvas width="800" height="600" id="canvas"></canvas>
+
+        <div class="control">
+            <input type="file" name="browse" class="btn" id="browse" accept="image/jpeg,image/png,image/gif">
+            <input type="text" name="url" id="url" class="btn">
+        
+            <input type="button" value="Go!" id="action" class="btn">
+            <a id="save" download="newImg"><input type="button" value="Save as!" class="btn"></a>
+            <input type="button" value="crop" id="crop" class="btn"> 
+            <input type="button" value="start" id="go" class="btn">
+            <input type="button" value="undo!" id="undo">
+            </div>
+        <script src="js/main.js"></script>
+    </form>
+</body>
+
+</html>

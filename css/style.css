@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin-left: 300px;
+}
+.wrapper{
+}
+#canvas {
+    border: 1px solid black;
+    background: wheat;
+}
+
+body {
+    
+    background: linear-gradient(to top,darkviolet,lightblue);
+}
+
+.croppie {
+    display: none;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border: 1px dashed black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#handle {
+    background-color: #727272;
+    width: 10px;
+    height: 10px;
+    cursor: se-resize;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#cursor {
+    background-color: #727272;
+    opacity: 0.1;
+    width: 90%;
+    height: 90%;
+    cursor: crosshair;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.control{
+    height: 56px;
+}
+.btn{
+/*
+    background: silver;
+    border-radius: 5px;
+    margin-left: 25px;
+    text-align: center;
+   
+    border:none;
+*/
+}
